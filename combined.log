@@ -1,0 +1,21 @@
+{
+  message: [
+    { _id: 5d62bf7aa91c1a04a7e15939, email: 'chambialamit@gmail.com' }
+  ],
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2019-08-25T17:28:44.866Z'
+}
+{
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: ' +
+    'basicserver.subscriptions index: user.username_1 dup ' +
+    'key: { : "amit" }',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-08-27T16:34:24.977Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}

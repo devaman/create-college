@@ -1,0 +1,13 @@
+{
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  errmsg: 'E11000 duplicate key error collection: ' +
+    'basicserver.subscriptions index: user.username_1 dup ' +
+    'key: { : "amit" }',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2019-08-27T16:34:24.977Z',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
